@@ -1,0 +1,31 @@
+# Abaikan folder venv
+venv/
+
+# Abaikan file-file Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Abaikan file environment
+.env
+.env.local
+.env.development
+.env.production
+
+# Abaikan file Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# Abaikan file log dan database
+*.log
+*.sqlite3
+
+# Abaikan file hasil build
+build/
+dist/
+*.egg-info/
+
+# Abaikan file editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
